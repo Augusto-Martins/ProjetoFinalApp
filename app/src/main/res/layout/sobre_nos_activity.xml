@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SobreNos" >
+    tools:context=".SobreNos">
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="catalogo"
-        tools:layout_editor_absoluteX="32dp"
+        android:text="sobre nós"
+        tools:layout_editor_absoluteX="146dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="carrinho"
@@ -23,10 +24,68 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="sobre nós"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="16dp" />
-</FrameLayout>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="catalogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:paddingBottom="2"
+        android:text="missão: vender a maior quantidade de roupas possivel com tecnologia"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:paddingBottom="2"
+        android:text="VISÃO: SER A MAIOR LOJA VIRTUAL DO MUNDO... PS: MELHOR QUE A SHEIN"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="349dp"
+        android:layout_height="39dp"
+        android:paddingBottom="2"
+        android:text="VALORES: OS MAIS BARATOS POSSIVEIS"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="525dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="221dp"
+        android:layout_height="148dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="147dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="222dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="361dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="222dp"
+        android:layout_height="151dp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="574dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
