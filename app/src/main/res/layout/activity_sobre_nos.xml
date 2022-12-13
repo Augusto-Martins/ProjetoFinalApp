@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#53B5EA"
+    tools:context=".SobreNos">
+
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#040303"
+        android:text="Minha conta"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#070707"
+        android:onClick="sendMessage"
+        android:text="Sobre nós"
+        tools:ignore="UsingOnClickInXml"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#070707"
+        android:onClick="sendMessage"
+        android:text="catalogo"
+        tools:ignore="UsingOnClickInXml"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="67dp"
+        android:layout_height="25dp"
+        android:text="Missão"
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="54dp"
+        android:layout_height="25dp"
+        android:text="Visão"
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="65dp"
+        android:layout_height="31dp"
+        android:text="Valores"
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="218dp"
+        android:layout_height="84dp"
+        android:text="Sobre nós "
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="217dp"
+        android:layout_height="105dp"
+        android:text="Ser uma empresa referência na venda de vestuários, focando nos resultados, nos tornando o principal
+parceiro estratégico de nossos clientes, agregando valor e trazendo novidades."
+        android:textColor="#151414"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="230dp"
+        android:layout_height="124dp"
+        android:text="Trabalhar firmemente para nos manter como referência no
+mercado, qualidade e impactando positivamente os nossos clientes."
+        android:textColor="#050505"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="241dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="217dp"
+        android:layout_height="53dp"
+        android:text="Buscar a Excelência; Valorizar o ser humano;
+Comprometimento; Inovação."
+        android:textColor="#050505"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="343dp"
+        android:layout_height="83dp"
+        android:text="Criada em 2022 a Power Blue oferecemos peças de ótima qualidade, para você se inspirar em Looks maravilhosos com preços que cabe no bolso."
+        android:textColor="#050505"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="513dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_height="142dp"
+        android:src="@drawable/missão"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="160dp"
+        android:layout_height="142dp"
+        android:src="@drawable/missão"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="159dp"
+        android:layout_height="129dp"
+        android:src="@drawable/visão"
+        tools:layout_editor_absoluteX="256dp"
+        tools:layout_editor_absoluteY="170dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="161dp"
+        android:layout_height="113dp"
+        android:src="@drawable/valor"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

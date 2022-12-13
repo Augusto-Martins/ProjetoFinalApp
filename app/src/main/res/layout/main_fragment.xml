@@ -5,148 +5,187 @@
     android:id="@+id/sobre_nos"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#53B5EA"
     tools:context=".ui.main.SobreNosFragment">
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="270dp"
         android:layout_height="55dp"
-        android:text="ONDE O QUE VOCÊ PAGA, NÃO É O QUE VOCÊ LEVA"
+        android:text="Encontre modelos básicos ao mais estiloso com tamanhos de A ao Z."
+        android:textColor="#0B0A0A"
         app:autoSizeTextType="uniform"
-        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteX="70dp"
         tools:layout_editor_absoluteY="116dp" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="201dp"
-        android:layout_height="45dp"
-        android:text="AUMA JUMAFE"
+        android:layout_width="169dp"
+        android:layout_height="44dp"
+        android:foregroundTint="#121010"
+        android:text="Power Blue"
+        android:textColor="#131212"
         app:autoSizeTextType="uniform"
-        app:drawableTint="#0D2B85"
+        app:drawableTint="#0D0E0E"
         app:fontFamily="sans-serif-black"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="71dp" />
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="72dp" />
+
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="carrinho"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="sobre nós"
-        tools:layout_editor_absoluteX="155dp"
+        android:backgroundTint="#040303"
+        android:text="Minha conta"
+        tools:layout_editor_absoluteX="264dp"
         tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="catalogo"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="16dp"
+        android:backgroundTint="#070707"
         android:onClick="sendMessage"
-        tools:ignore="UsingOnClickInXml" />
+        android:text="Sobre nós"
+        tools:ignore="UsingOnClickInXml"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="16dp" />
 
-    <ImageView
-        android:id="@+id/imageView12"
+    <Button
+        android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="537dp"
-        tools:src="@tools:sample/avatars" />
+        android:backgroundTint="#070707"
+        android:onClick="sendMessage"
+        android:text="catalogo"
+        tools:ignore="UsingOnClickInXml"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="674dp" />
+        android:text="R$ 90,00"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D2B85"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="71dp"
+        tools:layout_editor_absoluteY="660dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="293dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:text="R$ 150,00"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D2B85"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:text="Calça jogger Cargo"
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="50dp"
+        android:layout_height="22dp"
+        android:text="Tênis"
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="638dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="140dp"
+        android:layout_height="21dp"
+        android:text="Camisa de algodão"
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="639dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="51dp"
+        android:layout_height="20dp"
+        android:text="Casaco  "
+        android:textColor="#131212"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D0E0E"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="391dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="57dp"
+        android:layout_height="20dp"
+        android:text="R$ 80,00"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D2B85"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="411dp" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="283dp"
-        tools:layout_editor_absoluteY="674dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="198dp"
-        tools:src="@tools:sample/avatars" />
+        android:text="R$ 50,00"
+        app:autoSizeTextType="uniform"
+        app:drawableTint="#0D2B85"
+        app:fontFamily="sans-serif-black"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="660dp" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="371dp"
-        tools:src="@tools:sample/avatars" />
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tenis"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="448dp" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="537dp"
-        tools:src="@tools:sample/avatars" />
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="32dp"
+        android:src="@drawable/calça"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="191dp" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="198dp"
-        tools:src="@tools:sample/avatars" />
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:src="@drawable/camisa"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="448dp" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="251dp"
-        tools:layout_editor_absoluteY="371dp"
-        tools:src="@tools:sample/avatars" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="293dp"
-        tools:layout_editor_absoluteY="509dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="509dp" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:layout_width="140dp"
+        android:layout_height="200dp"
+        android:src="@drawable/casaco"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="191dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
